@@ -1,6 +1,6 @@
 import './App.css'
 import Navbar from './components/Navbar'
-
+import Form from './components/Form'
 function App() {
   
 
@@ -8,9 +8,7 @@ function App() {
     <>
     <div>
       <Navbar />
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+      <Form />
     </div>
       
     </>
